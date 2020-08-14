@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient,HttpHeaders } from '@angular/common/http';
-import { catchError, map, tap } from 'rxjs/operators';
+import { catchError,  tap } from 'rxjs/operators';
 
 import {Hero} from '../module/hero';
 // 不需要mock了，用in-memory-data.ts来代替，它就像一个数据库，可以用http来请求。

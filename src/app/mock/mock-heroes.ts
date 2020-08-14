@@ -1,5 +1,5 @@
 import {Hero} from '../module/hero';
-
+// mock需要使用的数据
 export const HEROES: Hero[] = [
     { id: 11, name: 'Dr Nice' },
     { id: 12, name: 'Narco' },
