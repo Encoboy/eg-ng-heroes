@@ -14,7 +14,6 @@ export class HeroesComponent implements OnInit {
 
   // 在这里注入服务
   constructor(private heroService:HeroService,private messageService:MessageService) { }
-  
   ngOnInit(): void {
     this.getHeroes();
   }
